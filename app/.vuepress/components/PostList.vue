@@ -13,7 +13,7 @@ export default {
         posts() {
             return this.$site.pages
                 // blogディレクトリ以下を投稿記事一覧表示の対象とする
-                .filter(post => post.path.startsWith('/blog/'))
+                .filter(post => post.path.startsWith('/blogs/'))
                 // dateに設定した日付の降順にソートする
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
         }

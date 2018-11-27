@@ -84,6 +84,19 @@ export default {
       return 'Last Updated'
     },
 
+    sortedPosts() {
+      return this.$site.pages
+          // blogディレクトリ以下のページを次へ前へリンク自動生成
+          .filter(post => post.path.startsWith('/blog/'))
+          // dateに設定した日付の降順にソートする
+          .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+    },
+    // 新規メソッド
+    pageIdx() {
+      return this.sortedPosts
+          .findIndex(page => page.path == this.$page.path)
+    },
+
     prev () {
       const prev = this.$page.frontmatter.prev
       if (prev === false) {

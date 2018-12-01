@@ -18,13 +18,20 @@ module.exports = {
     ],
     markdown: {
       lineNumbers: true,
-      linkify: true
+      linkify: true,
+      anchor: { permalink: false },
+      // options for markdown-it-toc
+      toc: { includeLevel: [1, 2] },
+      extendMarkdown: md => {
+        // use more markdown-it plugins!
+        md.use(require('markdown-it-xxx'))
+      }
     },
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
         { text: 'About', link: '/about.html' },
-        { text: 'GitHub', link: 'https://github.com/rubytomato' }
+        { text: 'GitHub', link: 'https://github.com/gonzaemon111' }
       ],
       sidebarDepth: 2,
       sidebar: 'auto',

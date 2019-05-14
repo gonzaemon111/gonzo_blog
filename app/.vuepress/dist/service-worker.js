@@ -21,15 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f897292be3c4c893b089cd06fd3311ff"
+    "revision": "bf4930e17ce4b80c74e4e3bd86c7cc10"
   },
   {
     "url": "about/1.html",
-    "revision": "9dacd5226b672f5d6bef68fd70438129"
+    "revision": "773265a71687c254500eee04b2536039"
   },
   {
     "url": "about/index.html",
-    "revision": "6f5b3fda8a99209b5526b48c09ab632b"
+    "revision": "0ade704a0233558bdddb0bcbc9bfea40"
   },
   {
     "url": "assets/css/0.styles.4c855733.css",
@@ -96,40 +96,72 @@ self.__precacheManifest = [
     "revision": "33af46b27345b8c4431be9e417642e04"
   },
   {
-    "url": "assets/js/app.16f217b8.js",
-    "revision": "9a0c297f7d556ce126bb7dfd8d11074e"
+    "url": "assets/js/app.c6fa78d3.js",
+    "revision": "3bf3696dcddebb423fc5019afd520202"
   },
   {
     "url": "blogs/1.html",
-    "revision": "47c3de0ca494ebb06dececa5358f092d"
+    "revision": "06f74ee8db6a57d25a57aacb8fdb0924"
   },
   {
     "url": "blogs/2.html",
-    "revision": "abb3597db9e8a702e8981a930723cbfb"
+    "revision": "a25a348a1e8980c19ad9a2952386067c"
   },
   {
     "url": "blogs/3.html",
-    "revision": "274e079980c7dea4c28991df847ddb0a"
+    "revision": "faade54f63d53b50fa827507ab1d242b"
   },
   {
     "url": "blogs/4.html",
-    "revision": "5ffd033c0e82d91b9f6add034bb220bb"
+    "revision": "1a39ed0da7b5ff6cf24226af613a1d11"
   },
   {
     "url": "blogs/5.html",
-    "revision": "a3f40e7ee0a5f6ea87daefb47574239e"
+    "revision": "f5f0a4da255f9995baab2a32bc10587d"
   },
   {
     "url": "blogs/6.html",
-    "revision": "6d18493c58dd1d7be69a8f540fdd0309"
+    "revision": "7c726241530aa722f6275b20ce5b675b"
   },
   {
     "url": "blogs/7.html",
-    "revision": "20d448979109de0ef62b4d18d850c2d9"
+    "revision": "0feda48053216ad49db18a1ec619d549"
   },
   {
     "url": "favicon.png",
     "revision": "5a7e61744c8a91a7f11f9d9b3767d072"
+  },
+  {
+    "url": "img/icons/icon-128x128.png",
+    "revision": "d1aa941628912f0175ce4e54ab896c4f"
+  },
+  {
+    "url": "img/icons/icon-144x144.png",
+    "revision": "74c3d721e5d72bff6bd29f5d5aeda831"
+  },
+  {
+    "url": "img/icons/icon-152x152.png",
+    "revision": "eaea8e4d63fa61e82380f856a380c681"
+  },
+  {
+    "url": "img/icons/icon-192x192.png",
+    "revision": "20c38e93c160a65fb5daa96390b75397"
+  },
+  {
+    "url": "img/icons/icon-384x384.png",
+    "revision": "32c1b293a0b5e88e118458031240f8f9"
+  },
+  {
+    "url": "img/icons/icon-512x512.png",
+    "revision": "32c1b293a0b5e88e118458031240f8f9"
+  },
+  {
+    "url": "img/icons/icon-72x72.png",
+    "revision": "78519e55bfb2ce40452fd04cf40be1b3"
+  },
+  {
+    "url": "img/icons/icon-96x96.png",
+    "revision": "d65f12196dbdda2f11881f258c34632d"
   },
   {
     "url": "img/vuetify_top.png",
@@ -137,7 +169,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "603c0488b3699a9152db14d37c13dd87"
+    "revision": "637aef9851e0345f526083eb205ab4d3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

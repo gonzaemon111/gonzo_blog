@@ -1,14 +1,14 @@
 {
   "name": "vuepress-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gonzaemonのブログ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev app",
     "build": "vuepress build app"
   },
-  "author": "",
+  "author": "gonzaemon111",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^0.14.8"

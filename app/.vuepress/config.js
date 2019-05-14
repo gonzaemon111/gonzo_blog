@@ -5,7 +5,8 @@ module.exports = {
     base: '/',
     serviceWorker: true,
     head: [
-      ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.png' }]
+      ['link', { rel: 'manifest', href: '/manifest.json' }],
+      ['link', { rel: 'icon', href: '/img/favicon.ico' }]
     ],
     locales: {
       '/': {
@@ -20,6 +21,9 @@ module.exports = {
       lineNumbers: true,
       linkify: true,
       anchor: { permalink: false },
+      config: (md) => {
+        md.options.linkfy = true
+      },
       // options for markdown-it-toc
       toc: { includeLevel: [1, 2] },
       extendMarkdown: md => {

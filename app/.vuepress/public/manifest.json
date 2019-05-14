@@ -3,12 +3,13 @@
   "short_name": "GonzoPWA",
   "icons": [
     {
-      "src": "img/favicon.ico",
+      "src": "favicon.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "lang": "ja-JP",
-  "start_url": "/blogs/README.md",
+  "start_url": "/README.md",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "aliceblue"

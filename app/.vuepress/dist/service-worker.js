@@ -21,15 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "2be6595cec19865ca66e03e7f3ee5614"
+    "revision": "f897292be3c4c893b089cd06fd3311ff"
   },
   {
     "url": "about/1.html",
-    "revision": "17b121c3de0753b461cd2982a3aa719d"
+    "revision": "9dacd5226b672f5d6bef68fd70438129"
   },
   {
     "url": "about/index.html",
-    "revision": "3986fc305a8589fee08df6937abb2ba0"
+    "revision": "6f5b3fda8a99209b5526b48c09ab632b"
   },
   {
     "url": "assets/css/0.styles.4c855733.css",
@@ -96,36 +96,40 @@ self.__precacheManifest = [
     "revision": "33af46b27345b8c4431be9e417642e04"
   },
   {
-    "url": "assets/js/app.94406576.js",
-    "revision": "14301fc2159853c401566f4bd70db08d"
+    "url": "assets/js/app.16f217b8.js",
+    "revision": "9a0c297f7d556ce126bb7dfd8d11074e"
   },
   {
     "url": "blogs/1.html",
-    "revision": "601ed99d7e697b3d806e94df6f034a0c"
+    "revision": "47c3de0ca494ebb06dececa5358f092d"
   },
   {
     "url": "blogs/2.html",
-    "revision": "49d0ed6182c596844d993dec032d375c"
+    "revision": "abb3597db9e8a702e8981a930723cbfb"
   },
   {
     "url": "blogs/3.html",
-    "revision": "fe06d89c79bef57e6ec481b3aa26e590"
+    "revision": "274e079980c7dea4c28991df847ddb0a"
   },
   {
     "url": "blogs/4.html",
-    "revision": "1d50dee962b79faf89b809543b561b61"
+    "revision": "5ffd033c0e82d91b9f6add034bb220bb"
   },
   {
     "url": "blogs/5.html",
-    "revision": "befc4ac160076f2d4c8840662ff3d2d7"
+    "revision": "a3f40e7ee0a5f6ea87daefb47574239e"
   },
   {
     "url": "blogs/6.html",
-    "revision": "ed7e074486a614ced83121787aeeeecf"
+    "revision": "6d18493c58dd1d7be69a8f540fdd0309"
   },
   {
     "url": "blogs/7.html",
-    "revision": "4b0bc396be58517c1a9ba61a830eac01"
+    "revision": "20d448979109de0ef62b4d18d850c2d9"
+  },
+  {
+    "url": "favicon.png",
+    "revision": "5a7e61744c8a91a7f11f9d9b3767d072"
   },
   {
     "url": "img/vuetify_top.png",
@@ -133,7 +137,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b2e8d7be693778266628225aac9925fe"
+    "revision": "603c0488b3699a9152db14d37c13dd87"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

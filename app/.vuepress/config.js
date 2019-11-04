@@ -34,10 +34,10 @@ module.exports = {
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'About', link: '/about.html' },
+        { text: 'About', link: '/about' },
         { text: 'GitHub', link: 'https://github.com/gonzaemon111' }
       ],
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       sidebar: 'auto',
       lastUpdated: 'Last Updated'
       // sidebar: {
